@@ -1,0 +1,56 @@
+[
+    {
+        "": 1,
+        "Sports Team": "New York Yankees (MLB)",
+        "Value": 5.25,
+        "Five-Year Change In Value": 54,
+        "Owner": "Steinbrenner family",
+        "Year Purchased": 1973,
+        "Price Paid": "$8.8 million"
+      },
+      {
+        "": 15,
+        "Sports Team": "Los Angeles Dodgers (MLB)",
+        "Value": 3.57,
+        "Five-Year Change In Value": 43,
+        "Owner": "Guggenheim Baseball Management",
+        "Year Purchased": 2012,
+        "Price Paid": "$2 billion"
+      },
+      {
+        "": 19,
+        "Sports Team": "Boston Red Sox (MLB)",
+        "Value": 3.47,
+        "Five-Year Change In Value": 51,
+        "Owner": "John Henry, Tom Werner",
+        "Year Purchased": 2002,
+        "Price Paid": "$380 million"
+      },
+      {
+        "": 21,
+        "Sports Team": "Chicago Cubs (MLB)",
+        "Value": 3.36,
+        "Five-Year Change In Value": 53,
+        "Owner": "Ricketts family",
+        "Year Purchased": 2009,
+        "Price Paid": "$700 million"
+      },
+      {
+        "": 27,
+        "Sports Team": "San Francisco Giants (MLB)",
+        "Value": 3.18,
+        "Five-Year Change In Value": 41,
+        "Owner": "Charles Johnson",
+        "Year Purchased": 1993,
+        "Price Paid": "$100 million"
+      },
+      {
+        "": 47,
+        "Sports Team": "New York Mets (MLB)",
+        "Value": 2.45,
+        "Five-Year Change In Value": 48,
+        "Owner": "Steve Cohen",
+        "Year Purchased": 2020,
+        "Price Paid": "$2.42 billion"
+      }
+]

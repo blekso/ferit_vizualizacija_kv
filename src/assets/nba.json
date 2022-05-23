@@ -1,0 +1,83 @@
+[
+    {
+        "": 2,
+        "Sports Team": "New York Knicks (NBA)",
+        "Value": 5,
+        "Five-Year Change In Value": 67,
+        "Owner": "Madison Square Garden Sports",
+        "Year Purchased": 1997,
+        "Price Paid": "$300 million"
+      },
+      {
+        "": 5,
+        "Sports Team": "Golden State Warriors (NBA)",
+        "Value": 4.7,
+        "Five-Year Change In Value": 147,
+        "Owner": "Joe Lacob, Peter Gruber",
+        "Year Purchased": 2010,
+        "Price Paid": "$450 million"
+      },
+      {
+        "": 6,
+        "Sports Team": "Los Angeles Lakers (NBA)",
+        "Value": 4.6,
+        "Five-Year Change In Value": 70,
+        "Owner": "Jerry Buss Family Trusts, Philip Anschutz",
+        "Year Purchased": "1979, 1998",
+        "Price Paid": "$20 million, $268 million"
+      },
+      {
+        "": 23,
+        "Sports Team": "Chicago Bulls (NBA)",
+        "Value": 3.3,
+        "Five-Year Change In Value": 43,
+        "Owner": "Jerry Reinsdorf",
+        "Year Purchased": 1985,
+        "Price Paid": "$16.2 million"
+      },
+      {
+        "": 25,
+        "Sports Team": "Boston Celtics (NBA)",
+        "Value": 3.2,
+        "Five-Year Change In Value": 52,
+        "Owner": "Wycliffe Grousbeck, Irving Grousbeck, Robert Epstein, Stephen Pagliuca",
+        "Year Purchased": 2002,
+        "Price Paid": "$360 million"
+      },
+      {
+        "": 38,
+        "Sports Team": "Los Angeles Clippers (NBA)",
+        "Value": 2.75,
+        "Five-Year Change In Value": 38,
+        "Owner": "Steve Ballmer",
+        "Year Purchased": 2014,
+        "Price Paid": "$2 billion"
+      },
+      {
+        "": 39,
+        "Sports Team": "Brooklyn Nets (NBA)",
+        "Value": 2.65,
+        "Five-Year Change In Value": 56,
+        "Owner": "Joseph Tsai",
+        "Year Purchased": 2019,
+        "Price Paid": "$3.2 billion"
+      },
+      {
+        "": 43,
+        "Sports Team": "Houston Rockets (NBA)",
+        "Value": 2.5,
+        "Five-Year Change In Value": 67,
+        "Owner": "Tilman Fertitta",
+        "Year Purchased": 2017,
+        "Price Paid": "$2.2 billion"
+      },
+      {
+        "": 48,
+        "Sports Team": "Dallas Mavericks (NBA)",
+        "Value": 2.45,
+        "Five-Year Change In Value": 75,
+        "Owner": "Mark Cuban",
+        "Year Purchased": 2000,
+        "Price Paid": "$280 million"
+      }
+]

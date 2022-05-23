@@ -1,0 +1,78 @@
+[
+    {
+    "": 3,
+    "Sports Team": "Barcelona (Soccer)",
+    "Value": 4.76,
+    "Five-Year Change In Value": 34,
+    "Owner": "club members",
+    "Year Purchased": "not applicable",
+    "Price Paid": "not applicable"
+  },
+  {
+    "": 4,
+    "Sports Team": "Real Madrid (Soccer)",
+    "Value": 4.75,
+    "Five-Year Change In Value": 30,
+    "Owner": "club members",
+    "Year Purchased": "not applicable",
+    "Price Paid": "not applicable"
+  },{
+    "": 9,
+    "Sports Team": "Bayern Munich (Soccer)",
+    "Value": 4.21,
+    "Five-Year Change In Value": 57,
+    "Owner": "club members",
+    "Year Purchased": "not applicable",
+    "Price Paid": "not applicable"
+  },
+  {
+    "": 10,
+    "Sports Team": "Manchester United (Soccer)",
+    "Value": 4.2,
+    "Five-Year Change In Value": 27,
+    "Owner": "Glazer family",
+    "Year Purchased": 2005,
+    "Price Paid": "$1.4 billion"
+  },
+  {
+    "": 11,
+    "Sports Team": "Liverpool (Soccer)",
+    "Value": 4.1,
+    "Five-Year Change In Value": 165,
+    "Owner": "John Henry, Tom Werner",
+    "Year Purchased": 2010,
+    "Price Paid": "$476 million"
+  },{
+    "": 13,
+    "Sports Team": "Manchester City (Soccer)",
+    "Value": 4,
+    "Five-Year Change In Value": 108,
+    "Owner": "heikh Mansour bin Zayed Al Nahyan",
+    "Year Purchased": 2008,
+    "Price Paid": "$385 million"
+  },{
+    "": 26,
+    "Sports Team": "Chelsea (Soccer)",
+    "Value": 3.2,
+    "Five-Year Change In Value": 93,
+    "Owner": "Roman Abramovich",
+    "Year Purchased": 2003,
+    "Price Paid": "$233 million"
+  },{
+    "": 37,
+    "Sports Team": "Arsenal (Soccer)",
+    "Value": 2.8,
+    "Five-Year Change In Value": 39,
+    "Owner": "Stanley Kroenke",
+    "Year Purchased": 2011,
+    "Price Paid": "$1.1 billion"
+  },{
+    "": 44,
+    "Sports Team": "Paris Saint-Germain (Soccer)",
+    "Value": 2.5,
+    "Five-Year Change In Value": 207,
+    "Owner": "Qatar Sports Investments",
+    "Year Purchased": 2011,
+    "Price Paid": "$100 million"
+  }
+]

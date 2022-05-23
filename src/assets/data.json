@@ -1,0 +1,452 @@
+[
+  {
+    "": 0,
+    "Sports Team": "Dallas Cowboys (NFL)",
+    "Value": 5.7,
+    "Five-Year Change In Value": 43,
+    "Owner": "Jerry Jones",
+    "Year Purchased": 1989,
+    "Price Paid": "$150 million"
+  },
+  {
+    "": 1,
+    "Sports Team": "New York Yankees (MLB)",
+    "Value": 5.25,
+    "Five-Year Change In Value": 54,
+    "Owner": "Steinbrenner family",
+    "Year Purchased": 1973,
+    "Price Paid": "$8.8 million"
+  },
+  {
+    "": 2,
+    "Sports Team": "New York Knicks (NBA)",
+    "Value": 5,
+    "Five-Year Change In Value": 67,
+    "Owner": "Madison Square Garden Sports",
+    "Year Purchased": 1997,
+    "Price Paid": "$300 million"
+  },
+  {
+    "": 3,
+    "Sports Team": "Barcelona (Soccer)",
+    "Value": 4.76,
+    "Five-Year Change In Value": 34,
+    "Owner": "club members",
+    "Year Purchased": "not applicable",
+    "Price Paid": "not applicable"
+  },
+  {
+    "": 4,
+    "Sports Team": "Real Madrid (Soccer)",
+    "Value": 4.75,
+    "Five-Year Change In Value": 30,
+    "Owner": "club members",
+    "Year Purchased": "not applicable",
+    "Price Paid": "not applicable"
+  },
+  {
+    "": 5,
+    "Sports Team": "Golden State Warriors (NBA)",
+    "Value": 4.7,
+    "Five-Year Change In Value": 147,
+    "Owner": "Joe Lacob, Peter Gruber",
+    "Year Purchased": 2010,
+    "Price Paid": "$450 million"
+  },
+  {
+    "": 6,
+    "Sports Team": "Los Angeles Lakers (NBA)",
+    "Value": 4.6,
+    "Five-Year Change In Value": 70,
+    "Owner": "Jerry Buss Family Trusts, Philip Anschutz",
+    "Year Purchased": "1979, 1998",
+    "Price Paid": "$20 million, $268 million"
+  },
+  {
+    "": 7,
+    "Sports Team": "New England Patriots (NFL)",
+    "Value": 4.4,
+    "Five-Year Change In Value": 38,
+    "Owner": "Robert Kraft",
+    "Year Purchased": 1994,
+    "Price Paid": "$172 million"
+  },
+  {
+    "": 8,
+    "Sports Team": "New York Giants (NFL)",
+    "Value": 4.3,
+    "Five-Year Change In Value": 54,
+    "Owner": "John Mara, Steven Tisch",
+    "Year Purchased": "1925, 1991",
+    "Price Paid": "$500, $150 million"
+  },
+  {
+    "": 9,
+    "Sports Team": "Bayern Munich (Soccer)",
+    "Value": 4.21,
+    "Five-Year Change In Value": 57,
+    "Owner": "club members",
+    "Year Purchased": "not applicable",
+    "Price Paid": "not applicable"
+  },
+  {
+    "": 10,
+    "Sports Team": "Manchester United (Soccer)",
+    "Value": 4.2,
+    "Five-Year Change In Value": 27,
+    "Owner": "Glazer family",
+    "Year Purchased": 2005,
+    "Price Paid": "$1.4 billion"
+  },
+  {
+    "": 11,
+    "Sports Team": "Liverpool (Soccer)",
+    "Value": 4.1,
+    "Five-Year Change In Value": 165,
+    "Owner": "John Henry, Tom Werner",
+    "Year Purchased": 2010,
+    "Price Paid": "$476 million"
+  },
+  {
+    "": 12,
+    "Sports Team": "Los Angeles Rams (NFL)",
+    "Value": 4,
+    "Five-Year Change In Value": 176,
+    "Owner": "Stanley Kroenke",
+    "Year Purchased": 2010,
+    "Price Paid": "$750 million"
+  },
+  {
+    "": 13,
+    "Sports Team": "Manchester City (Soccer)",
+    "Value": 4,
+    "Five-Year Change In Value": 108,
+    "Owner": "heikh Mansour bin Zayed Al Nahyan",
+    "Year Purchased": 2008,
+    "Price Paid": "$385 million"
+  },
+  {
+    "": 14,
+    "Sports Team": "San Francisco 49ers (NFL)",
+    "Value": 3.8,
+    "Five-Year Change In Value": 41,
+    "Owner": "Denise DeBartolo York, John York",
+    "Year Purchased": 1977,
+    "Price Paid": "$13 million"
+  },
+  {
+    "": 15,
+    "Sports Team": "Los Angeles Dodgers (MLB)",
+    "Value": 3.57,
+    "Five-Year Change In Value": 43,
+    "Owner": "Guggenheim Baseball Management",
+    "Year Purchased": 2012,
+    "Price Paid": "$2 billion"
+  },
+  {
+    "": 16,
+    "Sports Team": "New York Jets (NFL)",
+    "Value": 3.55,
+    "Five-Year Change In Value": 37,
+    "Owner": "Johnson family",
+    "Year Purchased": 2000,
+    "Price Paid": "$635 million"
+  },
+  {
+    "": 17,
+    "Sports Team": "Chicago Bears (NFL)",
+    "Value": 3.53,
+    "Five-Year Change In Value": 44,
+    "Owner": "McCaskey family",
+    "Year Purchased": 1920,
+    "Price Paid": "$100"
+  },
+  {
+    "": 18,
+    "Sports Team": "Washington Football Team (NFL)",
+    "Value": 3.5,
+    "Five-Year Change In Value": 23,
+    "Owner": "Daniel Snyder",
+    "Year Purchased": 1999,
+    "Price Paid": "$750 million"
+  },
+  {
+    "": 19,
+    "Sports Team": "Boston Red Sox (MLB)",
+    "Value": 3.47,
+    "Five-Year Change In Value": 51,
+    "Owner": "John Henry, Tom Werner",
+    "Year Purchased": 2002,
+    "Price Paid": "$380 million"
+  },
+  {
+    "": 20,
+    "Sports Team": "Philadelphia Eagles (NFL)",
+    "Value": 3.4,
+    "Five-Year Change In Value": 42,
+    "Owner": "Jeffrey Lurie",
+    "Year Purchased": 1994,
+    "Price Paid": "$185 million"
+  },
+  {
+    "": 21,
+    "Sports Team": "Chicago Cubs (MLB)",
+    "Value": 3.36,
+    "Five-Year Change In Value": 53,
+    "Owner": "Ricketts family",
+    "Year Purchased": 2009,
+    "Price Paid": "$700 million"
+  },
+  {
+    "": 22,
+    "Sports Team": "Houston Texans (NFL)",
+    "Value": 3.3,
+    "Five-Year Change In Value": 32,
+    "Owner": "Janice McNair",
+    "Year Purchased": 1999,
+    "Price Paid": "$700 million"
+  },
+  {
+    "": 23,
+    "Sports Team": "Chicago Bulls (NBA)",
+    "Value": 3.3,
+    "Five-Year Change In Value": 43,
+    "Owner": "Jerry Reinsdorf",
+    "Year Purchased": 1985,
+    "Price Paid": "$16.2 million"
+  },
+  {
+    "": 24,
+    "Sports Team": "Denver Broncos (NFL)",
+    "Value": 3.2,
+    "Five-Year Change In Value": 65,
+    "Owner": "Pat Bowlen Trust",
+    "Year Purchased": 1984,
+    "Price Paid": "$78 million"
+  },
+  {
+    "": 25,
+    "Sports Team": "Boston Celtics (NBA)",
+    "Value": 3.2,
+    "Five-Year Change In Value": 52,
+    "Owner": "Wycliffe Grousbeck, Irving Grousbeck, Robert Epstein, Stephen Pagliuca",
+    "Year Purchased": 2002,
+    "Price Paid": "$360 million"
+  },
+  {
+    "": 26,
+    "Sports Team": "Chelsea (Soccer)",
+    "Value": 3.2,
+    "Five-Year Change In Value": 93,
+    "Owner": "Roman Abramovich",
+    "Year Purchased": 2003,
+    "Price Paid": "$233 million"
+  },
+  {
+    "": 27,
+    "Sports Team": "San Francisco Giants (MLB)",
+    "Value": 3.18,
+    "Five-Year Change In Value": 41,
+    "Owner": "Charles Johnson",
+    "Year Purchased": 1993,
+    "Price Paid": "$100 million"
+  },
+  {
+    "": 28,
+    "Sports Team": "Las Vegas Raiders (NFL)",
+    "Value": 3.1,
+    "Five-Year Change In Value": 117,
+    "Owner": "Mark Davis",
+    "Year Purchased": 1966,
+    "Price Paid": "$180,000"
+  },
+  {
+    "": 29,
+    "Sports Team": "Seattle Seahawks (NFL)",
+    "Value": 3.08,
+    "Five-Year Change In Value": 64,
+    "Owner": "Paul G. Allen Trust",
+    "Year Purchased": 1997,
+    "Price Paid": "$194 million"
+  },
+  {
+    "": 30,
+    "Sports Team": "Green Bay Packers (NFL)",
+    "Value": 3.05,
+    "Five-Year Change In Value": 56,
+    "Owner": "shareholders",
+    "Year Purchased": 1921,
+    "Price Paid": "$100"
+  },
+  {
+    "": 31,
+    "Sports Team": "Pittsburgh Steelers (NFL)",
+    "Value": 3,
+    "Five-Year Change In Value": 58,
+    "Owner": "Daniel Rooney Trust, Arthur Rooney II",
+    "Year Purchased": 1933,
+    "Price Paid": "$2,500"
+  },
+  {
+    "": 32,
+    "Sports Team": "Baltimore Ravens (NFL)",
+    "Value": 2.98,
+    "Five-Year Change In Value": 54,
+    "Owner": "Stephen Bisciotti",
+    "Year Purchased": 2004,
+    "Price Paid": "$600 million"
+  },
+  {
+    "": 33,
+    "Sports Team": "Minnesota Vikings (NFL)",
+    "Value": 2.95,
+    "Five-Year Change In Value": 86,
+    "Owner": "Zygmunt Wilf",
+    "Year Purchased": 2005,
+    "Price Paid": "$600 million"
+  },
+  {
+    "": 34,
+    "Sports Team": "Miami Dolphins (NFL)",
+    "Value": 2.9,
+    "Five-Year Change In Value": 57,
+    "Owner": "Stephen Ross",
+    "Year Purchased": 2009,
+    "Price Paid": "1.1 billion"
+  },
+  {
+    "": 35,
+    "Sports Team": "Atlanta Falcons (NFL)",
+    "Value": 2.88,
+    "Five-Year Change In Value": 72,
+    "Owner": "Arthur Blank",
+    "Year Purchased": 2002,
+    "Price Paid": "$545 million"
+  },
+  {
+    "": 36,
+    "Sports Team": "Indianapolis Colts (NFL)",
+    "Value": 2.85,
+    "Five-Year Change In Value": 52,
+    "Owner": "James Irsay",
+    "Year Purchased": 1972,
+    "Price Paid": "$14 million"
+  },
+  {
+    "": 37,
+    "Sports Team": "Arsenal (Soccer)",
+    "Value": 2.8,
+    "Five-Year Change In Value": 39,
+    "Owner": "Stanley Kroenke",
+    "Year Purchased": 2011,
+    "Price Paid": "$1.1 billion"
+  },
+  {
+    "": 38,
+    "Sports Team": "Los Angeles Clippers (NBA)",
+    "Value": 2.75,
+    "Five-Year Change In Value": 38,
+    "Owner": "Steve Ballmer",
+    "Year Purchased": 2014,
+    "Price Paid": "$2 billion"
+  },
+  {
+    "": 39,
+    "Sports Team": "Brooklyn Nets (NBA)",
+    "Value": 2.65,
+    "Five-Year Change In Value": 56,
+    "Owner": "Joseph Tsai",
+    "Year Purchased": 2019,
+    "Price Paid": "$3.2 billion"
+  },
+  {
+    "": 40,
+    "Sports Team": "Los Angeles Chargers (NFL)",
+    "Value": 2.6,
+    "Five-Year Change In Value": 70,
+    "Owner": "Dean Spanos",
+    "Year Purchased": 1984,
+    "Price Paid": "$72 million"
+  },
+  {
+    "": 41,
+    "Sports Team": "Carolina Panthers (NFL)",
+    "Value": 2.55,
+    "Five-Year Change In Value": 63,
+    "Owner": "David Tepper",
+    "Year Purchased": 2018,
+    "Price Paid": "$2.28 billion"
+  },
+  {
+    "": 42,
+    "Sports Team": "Kansas City Chiefs (NFL)",
+    "Value": 2.5,
+    "Five-Year Change In Value": 63,
+    "Owner": "Hunt family",
+    "Year Purchased": 1960,
+    "Price Paid": "$25,000"
+  },
+  {
+    "": 43,
+    "Sports Team": "Houston Rockets (NBA)",
+    "Value": 2.5,
+    "Five-Year Change In Value": 67,
+    "Owner": "Tilman Fertitta",
+    "Year Purchased": 2017,
+    "Price Paid": "$2.2 billion"
+  },
+  {
+    "": 44,
+    "Sports Team": "Paris Saint-Germain (Soccer)",
+    "Value": 2.5,
+    "Five-Year Change In Value": 207,
+    "Owner": "Qatar Sports Investments",
+    "Year Purchased": 2011,
+    "Price Paid": "$100 million"
+  },
+  {
+    "": 45,
+    "Sports Team": "New Orleans Saints (NFL)",
+    "Value": 2.48,
+    "Five-Year Change In Value": 63,
+    "Owner": "Gayle Benson",
+    "Year Purchased": 1985,
+    "Price Paid": "$70.2 million"
+  },
+  {
+    "": 46,
+    "Sports Team": "Jacksonville Jaguars (NFL)",
+    "Value": 2.45,
+    "Five-Year Change In Value": 66,
+    "Owner": "Shahid Khan",
+    "Year Purchased": 2011,
+    "Price Paid": "$770 million"
+  },
+  {
+    "": 47,
+    "Sports Team": "New York Mets (MLB)",
+    "Value": 2.45,
+    "Five-Year Change In Value": 48,
+    "Owner": "Steve Cohen",
+    "Year Purchased": 2020,
+    "Price Paid": "$2.42 billion"
+  },
+  {
+    "": 48,
+    "Sports Team": "Dallas Mavericks (NBA)",
+    "Value": 2.45,
+    "Five-Year Change In Value": 75,
+    "Owner": "Mark Cuban",
+    "Year Purchased": 2000,
+    "Price Paid": "$280 million"
+  },
+  {
+    "": 49,
+    "Sports Team": "Cleveland Browns (NFL)",
+    "Value": 2.35,
+    "Five-Year Change In Value": 57,
+    "Owner": "ee and Jimmy Haslam",
+    "Year Purchased": 2012,
+    "Price Paid": "$987 million"
+  }
+]
