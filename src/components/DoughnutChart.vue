@@ -121,7 +121,17 @@ export default {
       return obj;
     }, */
     averagePerSport() {
-      let obj = {};
+      const colors = {
+        nba: "#7144e9",
+        mlb: "e9446a",
+        nfl: "#e97144",
+        soccer: "#e9c444",
+      };
+
+      let obj = {
+        sports: {},
+        colors: {},
+      };
       if (Object.values(this.teams).includes("MLB")) {
         let sum = 0;
         let count = 0;
@@ -132,7 +142,8 @@ export default {
           count++;
         });
 
-        obj.MLB = sum / count;
+        obj.sports.MLB = sum / count;
+        obj.colors.MLB = colors.mlb;
       }
       if (Object.values(this.teams).includes("NBA")) {
         let sum = 0;
@@ -144,7 +155,8 @@ export default {
           count++;
         });
 
-        obj.NBA = sum / count;
+        obj.sports.NBA = sum / count;
+        obj.colors.NBA = colors.nba;
       }
       if (Object.values(this.teams).includes("NFL")) {
         let sum = 0;
@@ -156,7 +168,8 @@ export default {
           count++;
         });
 
-        obj.NFL = sum / count;
+        obj.sports.NFL = sum / count;
+        obj.colors.NFL = colors.nfl;
       }
       if (Object.values(this.teams).includes("Soccer")) {
         let sum = 0;
@@ -168,7 +181,8 @@ export default {
           count++;
         });
 
-        obj.Soccer = sum / count;
+        obj.sports.Soccer = sum / count;
+        obj.colors.Soccer = colors.soccer;
       }
       return obj;
     },
@@ -196,12 +210,12 @@ export default {
     }, */
     chartData() {
       return {
-        labels: Object.keys(this.averagePerSport),
+        labels: Object.keys(this.averagePerSport.sports),
         datasets: [
           {
             label: "Five-Year Change In Value",
-            backgroundColor: this.colors,
-            data: Object.values(this.averagePerSport),
+            backgroundColor: Object.values(this.averagePerSport.colors),
+            data: Object.values(this.averagePerSport.sports),
           },
         ],
       };

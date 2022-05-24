@@ -71,7 +71,7 @@ export default {
   },
   data() {
     return {
-      data: json,
+      json: json,
       chartOptions: {
         responsive: true,
       },
@@ -83,6 +83,27 @@ export default {
     },
   },
   computed: {
+    data() {
+      const colors = {
+        nba: "#7144e9",
+        mlb: "e9446a",
+        nfl: "#e97144",
+        soccer: "#e9c444",
+      };
+
+      this.json.forEach((el) => {
+        if (el["Sports Team"].includes("NBA")) {
+          el.color = colors.nba;
+        } else if (el["Sports Team"].includes("MLB")) {
+          el.color = colors.mlb;
+        } else if (el["Sports Team"].includes("Soccer")) {
+          el.color = colors.soccer;
+        } else {
+          el.color = colors.nfl;
+        }
+      });
+      return this.json;
+    },
     colors() {
       return new Gradient()
         .setColorGradient("#3F2CAF", "e9446a")
@@ -97,7 +118,9 @@ export default {
         datasets: [
           {
             label: "Value in Billions",
-            backgroundColor: this.colors,
+            backgroundColor: this.data.map((el) => {
+              return el.color;
+            }),
             data: this.data.map((el) => {
               return el["Value"];
             }),
