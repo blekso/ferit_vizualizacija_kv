@@ -9,7 +9,7 @@
         class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
       >
         <div class="max-w-2xl">
-          <BarChart />
+          <BarChart :teams="value" />
         </div>
       </div>
     </div>

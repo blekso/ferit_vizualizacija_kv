@@ -137,7 +137,6 @@ export default {
         let count = 0;
 
         this.data.mlb.forEach((el) => {
-          console.log(el["Five-Year Change In Value"]);
           sum += el["Five-Year Change In Value"];
           count++;
         });
@@ -150,7 +149,6 @@ export default {
         let count = 0;
 
         this.data.nba.forEach((el) => {
-          console.log(el["Five-Year Change In Value"]);
           sum += el["Five-Year Change In Value"];
           count++;
         });
@@ -163,7 +161,6 @@ export default {
         let count = 0;
 
         this.data.nfl.forEach((el) => {
-          console.log(el["Five-Year Change In Value"]);
           sum += el["Five-Year Change In Value"];
           count++;
         });
@@ -176,7 +173,6 @@ export default {
         let count = 0;
 
         this.data.soccer.forEach((el) => {
-          console.log(el["Five-Year Change In Value"]);
           sum += el["Five-Year Change In Value"];
           count++;
         });

@@ -68,6 +68,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    teams: {
+      type: Object,
+      default: () => {},
+    },
   },
   data() {
     return {
@@ -75,6 +79,7 @@ export default {
       chartOptions: {
         responsive: true,
       },
+      formattedData: null,
     };
   },
   methods: {
@@ -91,6 +96,37 @@ export default {
         soccer: "#e9c444",
       };
 
+      let newData = [];
+
+      if (Object.values(this.teams).includes("MLB")) {
+        this.json.forEach((el, idx) => {
+          if (el["Sports Team"].includes("MLB")) {
+            newData.push(this.json[idx]);
+          }
+        });
+      }
+      if (Object.values(this.teams).includes("NBA")) {
+        this.json.forEach((el, idx) => {
+          if (el["Sports Team"].includes("NBA")) {
+            newData.push(this.json[idx]);
+          }
+        });
+      }
+      if (Object.values(this.teams).includes("NFL")) {
+        this.json.forEach((el, idx) => {
+          if (el["Sports Team"].includes("NFL")) {
+            newData.push(this.json[idx]);
+          }
+        });
+      }
+      if (Object.values(this.teams).includes("Soccer")) {
+        this.json.forEach((el, idx) => {
+          if (el["Sports Team"].includes("Soccer")) {
+            newData.push(this.json[idx]);
+          }
+        });
+      }
+
       this.json.forEach((el) => {
         if (el["Sports Team"].includes("NBA")) {
           el.color = colors.nba;
@@ -102,7 +138,11 @@ export default {
           el.color = colors.nfl;
         }
       });
-      return this.json;
+
+      newData.sort((a, b) => {
+        return b.Value - a.Value;
+      });
+      return newData;
     },
     colors() {
       return new Gradient()
