@@ -1,6 +1,21 @@
 <template>
   <div class="my-24 grid gap-12">
-    <div>
+    <div class="mx-24 mb-8 px-24 text-5xl font-bold">
+      <Multiselect
+        v-model="value"
+        mode="multiple"
+        placeholder="Select sport"
+        :close-on-select="false"
+        :options="{
+          MLB: 'MLB',
+          NBA: 'NBA',
+          NFL: 'NFL',
+          Soccer: 'Soccer',
+        }"
+      >
+      </Multiselect>
+    </div>
+    <div v-if="value.length > 0">
       <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">
         Most Valuable Sports Teams
       </h1>
@@ -58,28 +73,12 @@
         </div>
       </div>
     </div> -->
-    <div>
+    <div v-if="value.length > 0">
       <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">
         Average Five-Year Change In Value Per Sport
       </h1>
-      <div class="mx-24 mb-8 px-24 text-5xl font-bold">
-        <Multiselect
-          v-model="value"
-          mode="multiple"
-          placeholder="Select sport"
-          :close-on-select="false"
-          :options="{
-            MLB: 'MLB',
-            NBA: 'NBA',
-            NFL: 'NFL',
-            Soccer: 'Soccer',
-          }"
-        >
-        </Multiselect>
-      </div>
 
       <div
-        v-if="value.length > 0"
         style="height: 1000px"
         class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
       >
