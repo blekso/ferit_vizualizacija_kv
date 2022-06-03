@@ -91,7 +91,7 @@ export default {
     data() {
       const colors = {
         nba: "#7144e9",
-        mlb: "e9446a",
+        mlb: "#000000",
         nfl: "#e97144",
         soccer: "#e9c444",
       };

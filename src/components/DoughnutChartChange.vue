@@ -221,16 +221,16 @@ export default {
       return {
         labels: Object.keys(this.averagePerSport.sports),
         datasets: [
-          /*       {
+          {
             label: "Five-Year Change In Value",
             backgroundColor: Object.values(this.averagePerSport.colors),
             data: Object.values(this.averagePerSport.sports),
-          }, */
-          {
-            label: "Five-Year Change In Value in Billions",
+          },
+          /* {
+            label: "Five-Year Change In Value",
             backgroundColor: Object.values(this.averagePerSport.colors),
             data: Object.values(this.averagePerSport.values),
-          },
+          }, */
         ],
       };
     },
