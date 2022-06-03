@@ -1,6 +1,6 @@
 <template>
-  <div class="my-24 grid gap-12">
-    <!-- <div class="mx-24 mb-8 px-24 text-5xl font-bold">
+  <div class="my-4 grid gap-4">
+    <!-- <div class="mx-12 mb-8 px-12 text-5xl font-bold">
       <Multiselect
         v-model="value"
         mode="multiple"
@@ -24,8 +24,8 @@
       </div>
     </div> -->
     <div>
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">Select Sport</h1>
-      <div class="grid grid-cols-4 gap-12 mx-24 p-12 h-64">
+      <h1 class="mx-12 mb-8 px-4 text-5xl font-bold">Select Sport</h1>
+      <div class="grid grid-cols-4 gap-4 mx-12 p-4 h-32">
         <div
           class="flex justify-center items-center text-white cursor-pointer"
           :class="this.value.includes('MLB') ? 'border-4 border-red-500' : ''"
@@ -62,86 +62,41 @@
         </div>
       </div>
     </div>
-    <div v-if="value.length > 0">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">
+    <div v-if="value.length > 0" class="mb-8">
+      <h1 class="mx-12 mb-8 px-12 text-5xl font-bold">
         Most Valuable Teams Per Sport
       </h1>
       <div
         style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
+        class="flex justify-center items-center mx-12 rounded-lg border-2 border-black"
       >
-        <div class="max-w-2xl">
+        <div>
           <BarChart :teams="value" />
         </div>
       </div>
     </div>
-
-    <!-- <div v-if="Object.values(value).includes('MLB')">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">MLB</h1>
-      <div
-        style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
-      >
-        <div class="max-w-2xl">
-          <DoughnutChartMLB />
-        </div>
-      </div>
-    </div>
-    <div v-if="Object.values(value).includes('NBA')">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">NBA</h1>
-      <div
-        style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
-      >
-        <div class="max-w-2xl">
-          <DoughnutChartNBA />
-        </div>
-      </div>
-    </div>
-    <div v-if="Object.values(value).includes('NFL')">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">NFL</h1>
-      <div
-        style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
-      >
-        <div class="max-w-2xl">
-          <DoughnutChartNFL />
-        </div>
-      </div>
-    </div>
-    <div v-if="Object.values(value).includes('Soccer')">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">Soccer</h1>
-      <div
-        style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
-      >
-        <div class="max-w-2xl">
-          <DoughnutChartSoccer />
-        </div>
-      </div>
-    </div> -->
-    <div v-if="value.length > 0">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">
+    <div v-if="value.length > 0" class="mb-8">
+      <h1 class="mx-12 mb-8 px-12 text-5xl font-bold">
         Average Five-Year Change In Value Per Sport
       </h1>
 
       <div
         style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
+        class="flex justify-center items-center gap-12 mx-12 p-12 rounded-lg border-2 border-black"
       >
-        <div class="max-w-2xl">
+        <div>
           <DoughnutChartChange :teams="value" />
         </div>
       </div>
     </div>
-    <div v-if="value.length > 0">
-      <h1 class="mx-24 mb-8 px-24 text-5xl font-bold">Most Valuable Sport</h1>
+    <div v-if="value.length > 0" class="mb-8">
+      <h1 class="mx-12 mb-8 px-12 text-5xl font-bold">Most Valuable Sport</h1>
 
       <div
         style="height: 1000px"
-        class="flex justify-center items-center gap-12 mx-24 p-12 rounded-lg border-2 border-black"
+        class="flex justify-center items-center gap-12 mx-12 p-12 rounded-lg border-2 border-black"
       >
-        <div class="max-w-2xl">
+        <div>
           <DoughnutChart :teams="value" />
         </div>
       </div>
