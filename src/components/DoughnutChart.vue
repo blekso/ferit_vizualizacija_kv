@@ -10,7 +10,6 @@
     :width="width"
     :height="height"
   />
-  <!-- <div>test</div> -->
 </template>
 
 <script>
@@ -48,11 +47,11 @@ export default {
     },
     width: {
       type: Number,
-      default: 800,
+      default: 600,
     },
     height: {
       type: Number,
-      default: 800,
+      default: 600,
     },
     cssClasses: {
       default: "",
@@ -97,29 +96,6 @@ export default {
     },
   },
   computed: {
-    /* selectedTeamsTitle() {
-      let str = "";
-      this.teams.forEach((el) => {
-        str += el + " ";
-      });
-      return str;
-    }, */
-    /* averagePerTeam() {
-      let obj = {};
-      if (Object.values(this.teams).includes("MLB")) {
-        obj.mlb = this.data.mlb;
-      }
-      if (Object.values(this.teams).includes("NBA")) {
-        obj.nba = this.data.nba;
-      }
-      if (Object.values(this.teams).includes("NFL")) {
-        obj.nfl = this.data.nfl;
-      }
-      if (Object.values(this.teams).includes("Soccer")) {
-        obj.soccer = this.data.soccer;
-      }
-      return obj;
-    }, */
     averagePerSport() {
       const colors = {
         nba: "#7144e9",
@@ -201,31 +177,10 @@ export default {
         .setMidpoint(Object.keys(this.averagePerSport).length)
         .getColors();
     },
-    /* chartData() {
-      return {
-        labels: this.data.map((el) => {
-          return el["Sports Team"];
-        }),
-        datasets: [
-          {
-            label: "Five-Year Change In Value",
-            backgroundColor: this.colors,
-            data: this.data.map((el) => {
-              return el["Five-Year Change In Value"];
-            }),
-          },
-        ],
-      };
-    }, */
     chartData() {
       return {
         labels: Object.keys(this.averagePerSport.sports),
         datasets: [
-          /*       {
-            label: "Five-Year Change In Value",
-            backgroundColor: Object.values(this.averagePerSport.colors),
-            data: Object.values(this.averagePerSport.sports),
-          }, */
           {
             label: "Five-Year Change In Value in Billions",
             backgroundColor: Object.values(this.averagePerSport.colors),
