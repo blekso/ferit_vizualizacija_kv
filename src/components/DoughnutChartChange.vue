@@ -1,4 +1,5 @@
 <template>
+  <!-- https://codesandbox.io/s/github/apertureless/vue-chartjs/tree/main/sandboxes/doughnut -->
   <Doughnut
     :chart-options="chartOptions"
     :chart-data="chartData"
@@ -182,7 +183,7 @@ export default {
         labels: Object.keys(this.averagePerSport.sports),
         datasets: [
           {
-            label: "Five-Year Change In Value",
+            label: "Five-Year Change In Value in %",
             backgroundColor: Object.values(this.averagePerSport.colors),
             data: Object.values(this.averagePerSport.sports),
           },

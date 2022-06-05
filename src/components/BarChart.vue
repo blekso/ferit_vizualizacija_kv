@@ -1,4 +1,5 @@
 <template>
+  <!-- https://codesandbox.io/s/github/apertureless/vue-chartjs/tree/main/sandboxes/bar -->
   <Bar
     :chart-options="chartOptions"
     :chart-data="chartData"
