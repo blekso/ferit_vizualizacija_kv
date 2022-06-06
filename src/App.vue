@@ -47,9 +47,10 @@
           v-if="value.length > 0"
           class="border-2 border-black rounded-lg col-span-2"
         >
-          <h1 class="mx-12 my-8 text-5xl font-bold">
-            Most Valuable Teams Per Sport
-          </h1>
+          <div class="mx-12 mt-8">
+            <h1 class="text-5xl font-bold">Most Valuable Teams Per Sport</h1>
+            <p>- value in billions</p>
+          </div>
           <div
             style="height: 900px"
             class="flex justify-center items-center mx-12"
@@ -60,9 +61,12 @@
           </div>
         </div>
         <div v-if="value.length > 0" class="border-2 border-black rounded-lg">
-          <h1 class="mx-12 mt-8 text-5xl font-bold" style="height: 100px">
-            Average Five-Year Change In Value Per Sport
-          </h1>
+          <div class="mx-12 mt-8">
+            <h1 class="text-5xl font-bold" style="height: 100px">
+              Average Five-Year Change In Value Per Sport
+            </h1>
+            <p>- value in percentage</p>
+          </div>
 
           <div
             style="height: 700px"
@@ -74,9 +78,12 @@
           </div>
         </div>
         <div v-if="value.length > 0" class="border-2 border-black rounded-lg">
-          <h1 class="mx-12 mt-8 text-5xl font-bold" style="height: 100px">
-            Most Valuable Sport
-          </h1>
+          <div class="mx-12 mt-8">
+            <h1 class="text-5xl font-bold" style="height: 100px">
+              Most Valuable Sport
+            </h1>
+            <p>- value in billions</p>
+          </div>
 
           <div
             style="height: 700px"
